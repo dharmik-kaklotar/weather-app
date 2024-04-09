@@ -1,0 +1,24 @@
+.date-time {
+    color: #fff;
+    margin: 10px;
+}
+
+.time {
+    font-size: xx-large;
+    color: #fff;
+}
+
+@media (max-width:480px) {
+    .date-time {
+        margin: 5px;
+        color: #fff;
+    }
+    .time {
+        font-size: smaller;
+        color: #fff;
+    }
+    .date {
+        font-size: smaller;
+        color: #fff;
+    }
+}

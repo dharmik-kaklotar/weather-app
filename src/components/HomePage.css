@@ -1,0 +1,53 @@
+.container {
+    height: 70%;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    border-radius: 5px;
+    z-index: 14;
+}
+
+.image-container {
+    width: 60%;
+    background-image: url('../../images/brokenClouds.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.info-container {
+    width: 40%;
+}
+
+.temp {
+    color: #fff;
+    font-size: 7rem;
+    margin: 10px;
+}
+
+.location {
+    align-self: flex-start;
+}
+
+@media (max-width:480px) {
+    .container {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .image-container {
+        height: 25%;
+        width: 100%;
+    }
+    .temp {
+        font-size: xx-large;
+    }
+    .info-container {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,99 @@
+.weather-name {
+    color: #fff;
+}
+
+.input-weather {
+    border: none;
+    opacity: 0.5px;
+}
+
+.mc {
+    padding-top: 10px;
+}
+
+
+/* Code for Input Boxe */
+
+.input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-container input[type="text"] {
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.input-box svg {
+    margin-left: 1rem;
+}
+
+.input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+
+/* code for inputted city name */
+
+.entered-city-name {
+    color: #fff;
+    padding: 20px;
+}
+
+
+/* code for weather information */
+
+.description {
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: 0.5;
+    margin: 5px;
+}
+
+.wind-speed span {
+    font-size: 1.5rem;
+    color: #fff;
+    /* margin: 7px; */
+}
+
+.small {
+    font-size: 5px;
+}
+
+.humidity span {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.weather-icon img {
+    height: 9rem;
+    width: auto;
+    mix-blend-mode: color-burn;
+}
+
+.tem {
+    font-size: x-large;
+}
+
+.icon {
+    margin-top: 2px;
+}
